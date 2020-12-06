@@ -17,8 +17,8 @@ async function lineByLine() {
     inputArr.forEach((line, i) => {
         for(j = i; j < inputArr.length; j++) {
             let sumOfLines = line + inputArr[j];
-            if(sumOfLines == 2020) {
-                console.log(`${inputArr[i]} + ${inputArr[j]} = ${inputArr[i] + inputArr[j]} | Product is - ${inputArr[i] * inputArr[j]}`);
+            if(sumOfLines === 2020) {
+                console.log(`${inputArr[i]} + ${inputArr[j]} = ${sumOfLines} | Product is - ${inputArr[i] * inputArr[j]}`);
             }
         }
     });
